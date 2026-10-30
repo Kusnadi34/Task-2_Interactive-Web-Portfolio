@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolios — Nana Kusnadi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span class="logo-dot"></span>Kusnadi</a>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="portfolios.html">Portfolios</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                </button>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== PROJECTS ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-num">01</span>
+                    <h2 class="section-title">Projects</h2>
+                </div>
+
+                <div class="portfolio-filters reveal text-center mb-2">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                </div>
+
+                <div class="grid-3">
+                    
+                    <!-- Project 1: NovaBrew -->
+                    <article class="portfolio-card reveal" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=500&q=80" alt="NovaBrew Landing Page">
+                        <div class="portfolio-card-body">
+                            <h3>NovaBrew Landing Page</h3>
+                            <p>A responsive landing page for a smart coffee maker, built with a Mobile-First approach.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">Vanilla JS</span>
+                                <span class="tag">Intersection Observer</span>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-top: auto; padding-top: 15px;">
+                                <a href="https://kusnadi34.github.io/task-1-responsive-landing-page/" target="_blank" class="btn-secondary" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">Live Demo</a>
+                                <a href="https://github.com/Kusnadi34/task-1-responsive-landing-page" target="_blank" class="btn-ghost" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: TaskFlow -->
+                    <article class="portfolio-card reveal" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=500&q=80" alt="TaskFlow To-Do App">
+                        <div class="portfolio-card-body">
+                            <h3>TaskFlow To-Do App</h3>
+                            <p>A dynamic task manager with Local Storage, custom lists, tags, and subtasks.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Vanilla JS (ES6+)</span>
+                                <span class="tag">Local Storage</span>
+                                <span class="tag">DOM Manipulation</span>
+                                <span class="tag">Data Management</span>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-top: auto; padding-top: 15px;">
+                                <a href="https://kusnadi34.github.io/Task-3-Dynamic-ToDo-List-App/" target="_blank" class="btn-secondary" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">Live Demo</a>
+                                <a href="https://github.com/Kusnadi34/Task-3-Dynamic-ToDo-List-App" target="_blank" class="btn-ghost" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: SkyPulse -->
+                    <article class="portfolio-card reveal" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=500&q=80" alt="SkyPulse Weather Dashboard">
+                        <div class="portfolio-card-body">
+                            <h3>SkyPulse Weather</h3>
+                            <p>A Glassmorphism-styled weather app with real-time API integration and PWA support.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Fetch API</span>
+                                <span class="tag">Async/Await</span>
+                                <span class="tag">Glassmorphism</span>
+                                <span class="tag">PWA</span>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-top: auto; padding-top: 15px;">
+                                <a href="https://kusnadi34.github.io/task-4-Weather-Dashboard/" target="_blank" class="btn-secondary" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">Live Demo</a>
+                                <a href="https://github.com/Kusnadi34/task-4-Weather-Dashboard" target="_blank" class="btn-ghost" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: VeloShop -->
+                    <article class="portfolio-card reveal" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=500&q=80" alt="VeloShop E-Commerce">
+                        <div class="portfolio-card-body">
+                            <h3>VeloShop E-Commerce</h3>
+                            <p>A vibrant e-commerce interface with dynamic search, category filters, and a functional cart.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">JS Modules</span>
+                                <span class="tag">State Management</span>
+                                <span class="tag">Event Delegation</span>
+                                <span class="tag">Local Storage</span>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-top: auto; padding-top: 15px;">
+                                <a href="https://kusnadi34.github.io/Task-5_E-commerce-Interface/" target="_blank" class="btn-secondary" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">Live Demo</a>
+                                <a href="https://github.com/Kusnadi34/Task-5_E-commerce-Interface" target="_blank" class="btn-ghost" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5: NexusDash (React) -->
+                    <article class="portfolio-card reveal" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80" alt="NexusDash React Dashboard">
+                        <div class="portfolio-card-body">
+                            <h3>NexusDash Dashboard</h3>
+                            <p>A modern admin dashboard built with React, featuring data visualization and dynamic themes.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">React.js</span>
+                                <span class="tag">Vite</span>
+                                <span class="tag">React Hooks</span>
+                                <span class="tag">Recharts</span>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-top: auto; padding-top: 15px;">
+                                <a href="https://kusnadi34.github.io/task-6_Web-Applications/" target="_blank" class="btn-secondary" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">Live Demo</a>
+                                <a href="https://github.com/Kusnadi34/task-6_Web-Applications" target="_blank" class="btn-ghost" style="flex: 1; text-align: center; padding: 10px 15px; font-size: 0.85rem;">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ACHIEVEMENTS ===== -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-num">02</span>
+                    <h2 class="section-title">Achievements</h2>
+                </div>
+                <div class="grid-3">
+                    <div class="card reveal">
+                        <div class="icon">🏆</div>
+                        <h3>Frontend Intern</h3>
+                        <p>Successfully completed 6 comprehensive frontend projects during the Auspify Technologies Internship.</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="icon">📜</div>
+                        <h3>Responsive Design</h3>
+                        <p>Mastered Mobile-First CSS architecture and modern layout techniques (Flexbox, Grid).</p>
+                    </div>
+                    <div class="card reveal">
+                        <div class="icon">🌟</div>
+                        <h3>React JS</h3>
+                        <p>Built a fully functional React Dashboard with state management and data visualization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TECH STACK ===== -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-num">03</span>
+                    <h2 class="section-title">Tech Stack</h2>
+                </div>
+                <div class="grid-auto">
+                    <div class="card reveal"><div class="icon">🌐</div><h3>HTML5</h3><p>Semantic and accessible web structure.</p></div>
+                    <div class="card reveal"><div class="icon">🎨</div><h3>CSS3</h3><p>Responsive design, Flexbox, Grid, and Glassmorphism.</p></div>
+                    <div class="card reveal"><div class="icon">⚡</div><h3>JavaScript</h3><p>Dynamic DOM manipulation and ES6+ features.</p></div>
+                    <div class="card reveal"><div class="icon">⚛️</div><h3>React.js</h3><p>Building interactive UIs with hooks & components.</p></div>
+                    <div class="card reveal"><div class="icon">🔗</div><h3>REST APIs</h3><p>Fetching and handling real-time asynchronous data.</p></div>
+                    <div class="card reveal"><div class="icon">🛠️</div><h3>Git & GitHub</h3><p>Version control and project deployment.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><div class="container"><p>&copy; 2026 Nana Kusnadi. All rights reserved.</p></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>

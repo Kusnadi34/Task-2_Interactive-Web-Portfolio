@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills — Nana Kusnadi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span class="logo-dot"></span>Kusnadi</a>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="portfolios.html">Portfolios</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+                </button>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-num">01</span>
+                    <h2 class="section-title">Skill Categories</h2>
+                </div>
+
+                <div class="grid-3">
+                    <!-- Frontend Fundamentals -->
+                    <div class="card reveal">
+                        <div class="icon">🎨</div>
+                        <h3>Frontend Fundamentals</h3>
+                        <ul style="color: var(--text-muted); font-size: 0.9rem; margin-top: 10px; line-height: 1.8;">
+                            <li>• Semantic HTML5</li>
+                            <li>• CSS3 (Flexbox & CSS Grid)</li>
+                            <li>• Mobile-First Responsive Design</li>
+                            <li>• CSS Variables & Modern UI (Glassmorphism)</li>
+                            <li>• CSS Animations & Transitions</li>
+                        </ul>
+                    </div>
+
+                    <!-- Core JavaScript -->
+                    <div class="card reveal">
+                        <div class="icon">⚡</div>
+                        <h3>Core JavaScript</h3>
+                        <ul style="color: var(--text-muted); font-size: 0.9rem; margin-top: 10px; line-height: 1.8;">
+                            <li>• Vanilla JS (ES6+ Features)</li>
+                            <li>• DOM Manipulation & Event Delegation</li>
+                            <li>• Asynchronous JS (Fetch API & Async/Await)</li>
+                            <li>• REST API Integration & JSON</li>
+                            <li>• Local Storage & State Management</li>
+                        </ul>
+                    </div>
+
+                    <!-- Frameworks & Tools -->
+                    <div class="card reveal">
+                        <div class="icon">🛠️</div>
+                        <h3>Frameworks & Tools</h3>
+                        <ul style="color: var(--text-muted); font-size: 0.9rem; margin-top: 10px; line-height: 1.8;">
+                            <li>• React.js (Hooks: useState, useEffect, useRef)</li>
+                            <li>• Vite (Build Tool)</li>
+                            <li>• Recharts (Data Visualization)</li>
+                            <li>• Git & GitHub</li>
+                            <li>• PWA (Service Workers & Manifest)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proficiency Level -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-num">02</span>
+                    <h2 class="section-title">Core Competencies</h2>
+                </div>
+
+                <div class="grid-3 reveal" style="max-width: 900px; margin: 0 auto;">
+                    <div class="skill-item">Responsive Web Design</div>
+                    <div class="skill-item">Vanilla JavaScript Applications</div>
+                    <div class="skill-item">React Component Architecture</div>
+                    <div class="skill-item">API Integration & Data Handling</div>
+                    <div class="skill-item">UI/UX Implementation</div>
+                    <div class="skill-item">Version Control (Git)</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><div class="container"><p>&copy; 2026 Nana Kusnadi. All rights reserved.</p></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>
